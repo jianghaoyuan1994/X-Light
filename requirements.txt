@@ -1,0 +1,14 @@
+eclipse-sumo==1.14.0
+traci
+sumolib
+libsumo
+tqdm==4.59.0
+gym
+setproctitle
+absl-py
+tensorboardX
+wandb==0.15.3
+imageio
+numpy==1.19.5
+torch==1.5.0+cu92
+torchvision==0.6.0+cu92
