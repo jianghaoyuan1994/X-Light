@@ -470,7 +470,8 @@ class TransformerEncoderPolicy(nn.Module):
 
 
         if self.pred:
-            pred_ele = transformer_output.reshape(length, bs, -1)
+            pred_ele = transformer_output.permute(1, 0, 2).reshape(length, bs, -1)
+            # pred_ele = transformer_output.reshape(length, bs, -1)
             pred_input = torch.cat([pred_ele[:-1],
                                     observations[1:, :, 56:57],
                                     observations[1:, :, 65 + 56:65 + 57],
