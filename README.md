@@ -1,6 +1,5 @@
-# TonTLight
-This is the offical repo of Transformer on Transformer as A Meta Multi-Agent Reinforcement Learner:
-Towards Cross-City Traffic Signal Control.
+# X-Light
+This is the offical repo of X-Light: Cross-City Traffic Signal Control Using Transformer on Transformer as Meta Multi-Agent Reinforcement Learner.
 
 
 ## How to use
